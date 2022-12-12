@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
 import protImage from './my-bg.png'
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 const AboutMe = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
     return (
-        <div className='my-16'>
+        <div className='my-16' id='about'>
             <h1 data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"

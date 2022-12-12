@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import Partical from '../ParticalBackground/Partical';
 import { useLottie } from "lottie-react";
 import lottieFile from './84154-computer-science.json'
 import { FaFacebook, FaFilePdf, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
@@ -14,7 +13,6 @@ const HeaderHome = () => {
 
     return (
         <div>
-            <Partical />
             <Navbar />
             <div className='flex justify-center items-center md:mt-28 mt-20'>
                 <div data-aos="fade-up"

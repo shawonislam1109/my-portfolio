@@ -19,19 +19,12 @@ const ContactMe = () => {
     }
     return (
         <div id='contact' className='my-16 px-10 lg:px-0'>
-            <h1 data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-                data-aos-duration="1500"
+            <h1 data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="2000"
                 className='text-end font-mono text-3xl md:text-5xl '>Contact Me</h1>
-            <h1 data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-                data-aos-duration="1500"
+            <h1
+                d data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="2000"
                 className='text-start font-mono text-3xl md:text-5xl '>Get In Touch</h1>
-            <div data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
-                data-aos-duration="1500"
+            <div data-aos="fade-up-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="2000"
                 className='lg:grid grid-cols-2 gap-5'>
                 <div className='mt-16'>
                     <form onSubmit={sendEmail}>
