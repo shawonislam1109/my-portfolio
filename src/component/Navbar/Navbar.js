@@ -14,6 +14,7 @@ const Navbar = () => {
                         <li className='text-xl font-serif text-white'><a href='#project'>Project</a></li>
                         <li className='text-xl font-serif text-white'><a href='#contact'>Contact</a></li>
                         <li className='text-xl font-serif text-white'><a href='#about'>About Me</a></li>
+                        <li className='text-xl font-serif text-white'><a href='#blog'>Blog</a></li>
                     </ul>
                 </div>
                 <img className='w-12 md:w-20 md:h-20 rounded-full h-12 ml-5 md:ml-0' src={logo} alt="" />
@@ -24,6 +25,7 @@ const Navbar = () => {
                     <li className='text-xl font-serif text-white'><a href='#project'>Project</a></li>
                     <li className='text-xl font-serif text-white'><a href='#contact'>Contact</a></li>
                     <li className='text-xl font-serif text-white'><a href='#about'>About Me</a></li>
+                    <li className='text-xl font-serif text-white'><a href='#blog'>Blog</a></li>
                 </ul>
             </div>
         </div>
