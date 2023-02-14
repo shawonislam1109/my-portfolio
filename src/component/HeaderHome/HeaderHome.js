@@ -24,7 +24,7 @@ const HeaderHome = () => {
                     data-aos-duration="3000"
                     className='ml-5 md:ml-10'>
                     <h1 className='text-xl md:text-2xl text-left font-serif  text-white'>Rabiyul Islam</h1>
-                    <h1 className='text-3xl lg:text-5xl text-left  text-white font-serif'> I'm font-end-developer</h1>
+                    <h1 className='text-2xl lg:text-3xl text-left  text-white font-serif'>        MERN-STACK-DEVELOPER</h1>
                     <p className='text-2xl  font-serif border-2 mt-3 flex justify-center items-center border-white w-36 p-1 rounded-tl-3xl shadow-lg'><FaFilePdf className='text-white mr-3'></FaFilePdf><a href="https://drive.google.com/file/d/1fPuidaS_mkXCuiOFxGWvuGcBTGwtZRE8/view?usp=share_link">  Resume</a></p>
                     <div data-aos="fade-up"
                         data-aos-duration="3000"

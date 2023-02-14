@@ -9,6 +9,8 @@ import figma from './image/Figma.jpg'
 import SkillPart2 from './SkillPart2';
 import node from './image/node-js.png'
 import mongobd from './image/mongobd.jpg'
+import express from './image/expressjs.jpg'
+import firebase from  './image/firbase.png'
 
 
 
@@ -41,7 +43,7 @@ const Skill = () => {
         {
             id: 5,
             image: hTml,
-            name: 'HTML '
+            name: 'Html '
 
         },
         {
@@ -66,6 +68,18 @@ const Skill = () => {
             id: 9,
             image: figma,
             name: 'Figma'
+
+        },
+        {
+            id: 10,
+            image: express,
+            name: 'Express JS'
+
+        },
+        {
+            id: 11,
+            image: firebase,
+            name: 'Firebase'
 
         },
     ]
